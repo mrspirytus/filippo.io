@@ -1,2 +1,2 @@
 cfssl genkey -initca ca-csr.json | cfssljson -bare ca
-cfssl gencert -ca ca.pem -ca-key ca-key.pem -config config.json -hostname san.filippo.io leaf-csr.json | cfssljson -bare leaf
+cfssl gencert -ca ca.pem -ca-key ca-key.pem -config config.json leaf-csr.json | cfssljson -bare leaf
