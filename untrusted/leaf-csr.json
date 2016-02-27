@@ -1,0 +1,15 @@
+{
+    "CN": "untrusted.filippo.io",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "NL",
+            "L": "Amsterdam",
+            "O": "Filippo's Pwn Inc.",
+            "OU": "Untrusted dept."
+        }
+    ]
+}
